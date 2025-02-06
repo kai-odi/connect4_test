@@ -3,7 +3,7 @@ import pygame
 import sys
 
 from board import Connect4Game
-from gui_connector import Connect4GUI
+from gui import Connect4GUI
 
 
 def main() -> None:
