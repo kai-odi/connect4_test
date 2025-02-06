@@ -5,7 +5,7 @@ import pygame
 
 from board import Connect4Game
 from constants import BLUE, BLACK, YELLOW, RED, WHITE, BUTTON_WIDTH, BUTTON_HEIGHT
-from settings import SQUARESIZE, SCREEN_TITLE, WIN_WAIT_TIME, FPS, FONT_SIZE
+from settings import SQUARESIZE, SCREEN_TITLE, WIN_WAIT_TIME, FPS
 
 
 class Connect4GUI:
@@ -21,7 +21,7 @@ class Connect4GUI:
         self.size = (self.width, self.height)
         self.screen = pygame.display.set_mode(self.size)
         pygame.display.set_caption(SCREEN_TITLE)
-        self.myfont = pygame.font.SysFont("monospace", FONT_SIZE)
+        self.myfont = pygame.font.SysFont("monospace", 75)
         self.clock = pygame.time.Clock()
 
     def draw_board(self) -> None:
