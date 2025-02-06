@@ -1,5 +1,7 @@
-*README*
+# README
+
+## Первый запуск
 Перед первым запуском выполните команду pip3 install -r requirements.txt
 
-*Запуск*
+## Запуск
 python3 src/main.py
